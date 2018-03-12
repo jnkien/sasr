@@ -18,7 +18,7 @@ There is a lot of work to do and the development will be iterative by implementi
 ## Installation
 
 ```r
-devtools::install_github("jnkien/sasr")
+devtools::install_github("jnkien/sasr", ref = "develop")
 ```
 
 ## Features
