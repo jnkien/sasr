@@ -23,11 +23,11 @@ devtools::install_github("jnkien/sasr")
 
 ## Features
 
-There is still a lot of work to do, the following table recaps what has been done and what is missing.
+There is still a lot of work to do, the following links recap what has been done and what is missing.
 
-[a relative link](statements.md)
+* [list of SAS statements with their status of integration](statements.md)
 
-[a relative link](procedures.md)
+* [list of SAS procedures with their status of integration](procedures.md)
 
 ## Usage
 
