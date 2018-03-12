@@ -83,6 +83,13 @@
 #' run;
 #' ")
 #'
+#' sasr("
+#' data dataset;
+#' merge dataset1 dataset2;
+#' by variable;
+#' run;
+#' ")
+#'
 #' @importFrom magrittr %>% %<>%
 #' @importFrom stringr str_extract_all str_extract str_split str_trim
 #' @importFrom glue glue

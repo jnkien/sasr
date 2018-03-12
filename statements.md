@@ -60,7 +60,7 @@ All SAS statements are from [this list](http://support.sas.com/documentation/cdl
 | %LIST	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
 | LOCK	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
 | LOSTCARD	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
-| MERGE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| MERGE	                    | ![FFC107](https://placehold.it/15/FFC107/000000?text=+) |
 | MISSING	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
 | MODIFY	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
 | Null	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |

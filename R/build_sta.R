@@ -6,6 +6,7 @@ build_sta <- function(text){
     sta_name,
     "rename" ={res <- build_sta_rename(text)},
     "set"    ={res <- build_sta_set(text)},
+    "merge"  ={res <- build_sta_merge(text)},
     {stop(glue("{sta_name} data statement not yet implemented!"))}
   )
 
@@ -50,6 +51,19 @@ build_sta_set <- function(text){
   data_to_set <- get_value(text = text, key = "set", sep = ' ')
 
   res <- glue("{dataset} <- {data_to_set}")
+
+  return(res)
+}
+
+build_sta_merge <- function(text){
+
+  dataset   <- get_value(text = text, key = "data", sep = ' ')
+  merge_sta <- get_value(text = text, key = "merge", sep = ' ') %>%
+    str_split('\\s') %>%
+    unlist
+  by_sta    <- get_value(text = text, key = "by", sep = ' ')
+
+  res <- glue("{dataset} <- full_join({merge_sta[1]}, {merge_sta[2]}, by = \"{by_sta}\")")
 
   return(res)
 }
