@@ -49,7 +49,7 @@ run;
 
 ## Contributing
 
-Use Git flow: create a feature and a PR on the develop branch, you welcome :)
+Create a PR on the develop branch, you welcome :)
 
 ## License
 
