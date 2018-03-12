@@ -1,0 +1,91 @@
+# SAS statements
+
+This is the list of SAS statements with their status of integration:
+* ![4C1F50](https://placehold.it/15/4CAF50/000000?text=+) fully implemented
+* ![FFC107](https://placehold.it/15/FFC107/000000?text=+) essentials implemented
+* ![F44336](https://placehold.it/15/F44336/000000?text=+) not implemented
+* ![000000](https://placehold.it/15/000000/000000?text=+) not relevant in R
+
+All SAS statements are from [this list](http://support.sas.com/documentation/cdl/en/lrdict/64316/HTML/default/viewer.htm#a000293668.htm)
+
+| SAS statement             | status |
+| ------------------------- | :-----------------------------------------------------: |
+| ABORT	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| ARRAY	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| Assignment	              | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| ATTRIB	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| BY	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| CALL	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| CARDS	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| CARDS4	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| CATNAME	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| CHECKPOINT EXECUTE_ALWAYS	| ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| Comment	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| CONTINUE	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DATA	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DATALINES	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DATALINES4	              | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DECLARE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DECLARE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DELETE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DESCRIBE	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DISPLAY	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DM	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DO	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DO UNTIL	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DO WHILE	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| DROP	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| END	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| ENDSAS	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| ERROR	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| EXECUTE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| FILE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| FILENAME	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| FOOTNOTE	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| FORMAT	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| GO TO	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| IF	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| IF-THEN/ELSE	            | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| %INCLUDE	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| INFILE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| INFORMAT	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| INPUT	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| KEEP	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LABEL	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LEAVE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LENGTH	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LIBNAME	                  | ![000000](https://placehold.it/15/000000/000000?text=+) |
+| LINK	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LIST	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| %LIST	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LOCK	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| LOSTCARD	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| MERGE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| MISSING	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| MODIFY	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| Null	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| OPTIONS	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| OUTPUT	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| PAGE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| PUT	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| PUTLOG	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| REDIRECT	                | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| REMOVE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| RENAME	                  | ![4C1F50](https://placehold.it/15/4CAF50/000000?text=+) |
+| REPLACE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| RETAIN	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| RETURN	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| RUN	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| %RUN	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| SASFILE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| SELECT	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| SET	                      | ![4C1F50](https://placehold.it/15/4CAF50/000000?text=+) |
+| SKIP	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| STOP	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| Sum	                      | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| SYSECHO	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| TITLE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| UPDATE	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| WHERE	                    | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| WINDOW	                  | ![F44336](https://placehold.it/15/F44336/000000?text=+) |
+| X	                        | ![F44336](https://placehold.it/15/F44336/000000?text=+) |

@@ -1,0 +1,20 @@
+Type: Package
+Package: sasr
+Title: A SAS to R code converter
+Version: 0.0.0.9000
+Authors@R: person("Jean-Noël", "Kien", , "jnkien@gmail.com", c("aut", "cre"))
+Description: Simply convert the SAS code into R code. The R code generated use 
+    the following R packages: dplyr, magrittr, readr.
+License: MIT + file LICENSE
+URL: https://github.com/jnkien/sasr
+BugReports: https://github.com/jnkien/sasr/issues
+Depends: 
+    R (>= 3.1)
+Imports:
+    stats,
+    magrittr,
+    stringr,
+    glue
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
